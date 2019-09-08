@@ -10,6 +10,7 @@ import logging
 import os
 import errno
 import threading
+import time
 
 try:
         # Python 2 import.
@@ -57,6 +58,7 @@ class server_thread(threading.Thread):
                                     self.is_running = False
                                     self.server = None
                             self.queue.task_done()
+                    time.sleep(0.1)    
 
 ##-----------------------------------------------------------------------------------------------------------------------------------------------
 
