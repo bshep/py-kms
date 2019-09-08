@@ -88,7 +88,7 @@ RUN     echo "http://dl-cdn.alpinelinux.org/alpine/latest-stable/main" >> /etc/a
 
 # EN: Clone git-repo
 # RU: Клонирование git-репозитория
-git clone https://github.com/SystemRage/py-kms.git /home/py-kms && \
+git clone https://github.com/bshep/py-kms.git /home/py-kms && \
 git clone https://github.com/coleifer/sqlite-web.git /tmp/sqlite_web && \
 mv /tmp/sqlite_web/sqlite_web /home/ && \
 rm -rf /tmp/sqlite_web && \
