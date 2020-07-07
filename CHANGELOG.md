@@ -1,3 +1,17 @@
+### py-kms_2020-07-01
+- py-kms Gui: now matches all cli options, added modes onlyserver / onlyclient,
+  added some animations.
+- Added suboptions FILEOFF and STDOUTOFF of -F.
+- Created option for asynchronous messages.
+- Cleaned options parsing process.
+
+### py-kms_2020-02-02
+- Optimized pretty-print messages process.
+- Added -F FILESTDOUT option.
+- Added deamonization options (via [Etrigan](https://github.com/SystemRage/Etrigan) project).
+- py-kms GUI resurrected (and improved).
+- Cleaned, cleaned, cleaned.
+
 ### py-kms_2019-05-15
 - Merging for Python2 / Python3 compatibility all-in-one.
 - Added new options: 
